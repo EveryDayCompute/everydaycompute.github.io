@@ -51,7 +51,7 @@ Description=Test socket service
 ExecStart=/home/yeen/blep.sh
 ```
 
-And do note that there is an @ in the name just like in the [Failure handler](https://ellietheyeen.github.io/2023/11/19/discord-systemd-error-handler.html) guide from a while ago.
+And do note that there is an @ in the name just like in the [Failure handler](https://everydaycompute.github.io/2023/11/19/discord-systemd-error-handler.html) guide from a while ago.
 
 Not to take a look what the started script actually does using `lsof -p $$` inside the script. As you can probably see a socket is open in file descriptor 3 and I have no idea what the pipe in 4 is but that does not matter much.
 

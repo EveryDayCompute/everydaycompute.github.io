@@ -47,7 +47,7 @@ Of if you have anaconda on Windows it might and up at
 
 What you need to make these programs are Python's internal packaging tools like setuptools (even tho that is mostly deprecated) or pip
 
-Let's say we have the following files as used in this example project I made for this post: <https://github.com/EllieTheYeen/Mew>
+Let's say we have the following files as used in this example project I made for this post: <https://github.com/EveryDayCompute/Mew>
 ```
 mew/__init__.py
 mew/__main__.py

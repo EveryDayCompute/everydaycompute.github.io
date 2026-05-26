@@ -81,4 +81,4 @@ An upside of this too versus using JavaScript is that search engines can see you
 
 The only downside so far is I have not found out a way to make table headers for these kinds of tables in some reasonably easy way.
 
-You might also want to look at the source for [this page]({{ page.path | prepend: 'https://github.com/EllieTheYeen/ellietheyeen.github.io/blob/main/'}})
+You might also want to look at the source for [this page]({{ page.path | prepend: 'https://github.com/EveryDayCompute/everydaycompute.github.io/blob/main/'}})

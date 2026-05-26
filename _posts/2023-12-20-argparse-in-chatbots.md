@@ -112,6 +112,6 @@ Namespace(a=['testing', 'mew'], b=2, pos=['1'], command='get', e=True)
 
 This I plan to use to make some kind of chatbot with many features as it can be a pain to parse bot messages in more manual ways.
 
-Look at [This article](https://ellietheyeen.github.io/2023/12/14/command-line-social-media-poster.html) for an example of how I have parsed command line messages in the past and it is pretty much a direct conversion from a Discord bot.
+Look at [This article](https://everydaycompute.github.io/2023/12/14/command-line-social-media-poster.html) for an example of how I have parsed command line messages in the past and it is pretty much a direct conversion from a Discord bot.
 
 Anyway this is all I bother to write today as has been quite sick lately but I am starting to feel better

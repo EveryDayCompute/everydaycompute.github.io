@@ -40,7 +40,7 @@ showontop: true
 {% endraw -%}
 ```
 
-What the code generates is the page at [Tags](https://ellietheyeen.github.io/tags.html) which contains a list of every tag with large clickable links that refers to links inside the page using HTML anchors. What is so convenient with this is that we not can just add a small section on the bottom of the post layout below that shows some clickable tag buttons that sends you to the tags page and scrolls to the appropriate section. This is also done completely without JavaScript as it is a HTML feature so it is great for SEO.
+What the code generates is the page at [Tags](https://everydaycompute.github.io/tags.html) which contains a list of every tag with large clickable links that refers to links inside the page using HTML anchors. What is so convenient with this is that we not can just add a small section on the bottom of the post layout below that shows some clickable tag buttons that sends you to the tags page and scrolls to the appropriate section. This is also done completely without JavaScript as it is a HTML feature so it is great for SEO.
 
 Part of `_layouts/post.html`
 ```liquid

@@ -7,13 +7,13 @@ tags:
 - shell
 - c
 ---
-Sometimes it is important to make programs that wrap other programs for example in order to get the exit status, standard output and standard error. Examples of is game server wrappers, various error handlers and loggers. If you start tasks using systemd they will be wrapped automatically and you will be able to get the status and output and such and even install an error handler which we talked about [here](https://ellietheyeen.github.io/2023/11/19/discord-systemd-error-handler.html). You might also want to make your own wrapper if you want to do something more complex like having game server chat bridges and such.
+Sometimes it is important to make programs that wrap other programs for example in order to get the exit status, standard output and standard error. Examples of is game server wrappers, various error handlers and loggers. If you start tasks using systemd they will be wrapped automatically and you will be able to get the status and output and such and even install an error handler which we talked about [here](https://everydaycompute.github.io/2023/11/19/discord-systemd-error-handler.html). You might also want to make your own wrapper if you want to do something more complex like having game server chat bridges and such.
 
 * 
 {:toc}
 
 ## Whole output
-When my [bots](https://ellietheyeen.github.io/bots.html) post they typically use this to monitor and log errors and to log the ids of posts. This is a good way to know if a bot fails as the error message can then be sent as a notification to know that it failed. It wraps both stderr and out and logs the error code if any in case there are any strange exits. The downside of this is that it reads the entire output from the program and buffers it and waits for it to end which if there is some very long runtime with several errors you will not know it until the end.
+When my [bots](https://everydaycompute.github.io/bots.html) post they typically use this to monitor and log errors and to log the ids of posts. This is a good way to know if a bot fails as the error message can then be sent as a notification to know that it failed. It wraps both stderr and out and logs the error code if any in case there are any strange exits. The downside of this is that it reads the entire output from the program and buffers it and waits for it to end which if there is some very long runtime with several errors you will not know it until the end.
 
 `botpost.py`
 ```py

@@ -128,7 +128,7 @@ And it might generate something like the following accessible on the web like `/
 `listposts.json` rendered
 ```json
 {
-    "How to create a blog with Jekyll and GitHub Pages": "https://ellietheyeen.github.io/2023/10/29/how-to-create-a-blog-with-jekyll.html"
+    "How to create a blog with Jekyll and GitHub Pages": "https://everydaycompute.github.io/2023/10/29/how-to-create-a-blog-with-jekyll.html"
 }
 ```
 

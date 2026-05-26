@@ -133,7 +133,7 @@ clpubl toirc Wakeup after "$s". Remember the dreams 2>&1 >/dev/null
 `lic` stands for "light control" and it turns Telldus lamps off by name and is a simple script I made
 
 ## Publish to Redis thingy for IRC (clpubl)
-So I am mostly presenting this as I had quite some issues reading parameters of input in zsh and in shell in general. The syntax is quite strange and it took quite some time to figure it out. If you wonders what it actually sends to it is [IOTReact IRC](https://github.com/EllieTheYeen/IOTReact/tree/main/addons/irc) which is a project I made and use locally for some smart home things and to have a local IRC server for notifications.
+So I am mostly presenting this as I had quite some issues reading parameters of input in zsh and in shell in general. The syntax is quite strange and it took quite some time to figure it out. If you wonders what it actually sends to it is [IOTReact IRC](https://github.com/EveryDayCompute/IOTReact/tree/main/addons/irc) which is a project I made and use locally for some smart home things and to have a local IRC server for notifications.
 
 `clpubl` zsh
 ```py

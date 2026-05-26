@@ -6,7 +6,7 @@ tags:
 - liquid
 - html
 ---
-[Liquid](https://github.com/Shopify/liquid) is a powerful templating language even if it is a non evaluating one. In the past we made some [Share buttons](https://ellietheyeen.github.io/2023/11/23/share-dialogs-buttons.html) using all the data we had gathered from various websites about how they use URLs for their share dialogs. What we can do with this data is generate share buttons in a fancy and easy way using Liquid.
+[Liquid](https://github.com/Shopify/liquid) is a powerful templating language even if it is a non evaluating one. In the past we made some [Share buttons](https://everydaycompute.github.io/2023/11/23/share-dialogs-buttons.html) using all the data we had gathered from various websites about how they use URLs for their share dialogs. What we can do with this data is generate share buttons in a fancy and easy way using Liquid.
 
 * 
 {:toc}
@@ -110,7 +110,7 @@ Part of `_includes/share.html`
 
 {%- if butt.url -%}
 {%- assign url = butt.url | append: '=' -%}
-{%- assign url = url | append: 'https://ellietheyeen.github.io' | append: page.url | uri_escape -%}
+{%- assign url = url | append: 'https://everydaycompute.github.io' | append: page.url | uri_escape -%}
 {%- assign elems = elems | push: url -%}
 {%- endif -%}
 
@@ -124,7 +124,7 @@ Part of `_includes/share.html`
 {%- if butt.body -%}
 {%- assign body = butt.body | append: '=' -%}
 {%- assign body = body | append: '%0A' -%}
-{%- assign body = body | append: 'https://ellietheyeen.github.io' | append: page.url | uri_escape -%}
+{%- assign body = body | append: 'https://everydaycompute.github.io' | append: page.url | uri_escape -%}
 {%- assign body = body | append: '%0A' -%}
 {%- assign elems = elems | push: body -%}
 {%- endif -%}

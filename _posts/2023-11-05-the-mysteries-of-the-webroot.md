@@ -17,7 +17,7 @@ cat *.gz | gunzip | grep -o -P '(GET|POST) [^ ]+' | sort | uniq
 {:toc}
 
 ## index.html
-This is a common file to exist here. There might be all kinds of index. files such as `index.php` and even [index.json](https://github.com/EllieTheYeen/ellietheyeen.github.io/blob/main/.well-known/webfinger/index.json).
+This is a common file to exist here. There might be all kinds of index. files such as `index.php` and even [index.json](https://github.com/EveryDayCompute/everydaycompute.github.io/blob/main/.well-known/webfinger/index.json).
 
 The typical behavior for a web server is for every directory you visit on a website it will look for an index file and if that file exists then display or run it otherwise it will run directory listing if that is on. You can disable directory listing by creating an empty `index.html` in fact which is good if you want to hide things or provide your own directory lister.
 
@@ -48,7 +48,7 @@ A HUGE amount of robots will visit your website for all kinds of reasons. Here i
 4. Someone used a downloader or user operated spider on your website like [Wget](https://www.gnu.org/software/wget/) (This can bypass robots.txt at times if specified by the user)
 5. An API or webhook on your website received a call
 6. A malfunctioning robot accidentally hitting your site
-7. RSS clients that are looking for new articles on your website. Maybe you have a tag like `<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ellietheyeen.github.io/feed.xml">`
+7. RSS clients that are looking for new articles on your website. Maybe you have a tag like `<link rel="alternate" type="application/rss+xml" title="RSS" href="https://everydaycompute.github.io/feed.xml">`
 8. Tools like google webmasters or the bing equivalent trying to find the verification file and to see if it is still there (Yes you can block this)
 9. Someone told a bot maybe like ChatGPT to fetch something from your website or it arrived automatically
 10. Site accelerators that fetch pages that it predicts you might fetch or converting data for slow clients 

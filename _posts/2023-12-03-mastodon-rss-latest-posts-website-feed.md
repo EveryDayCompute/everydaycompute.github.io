@@ -17,7 +17,7 @@ Do you remember when almost every website had an embedded Twitter feed so you co
 
 While it would also be possible to fetch the statuses from the API, some servers have that a bit locked down so it might be less advisable to use that. The API URL to get statuses from a user on Mastodon looks like the following where `toot.cat` is the instance and `260327` is my own user id that should replaced for someone else  
 <https://toot.cat/api/v1/accounts/260327/statuses>  
-and you might remember the past article on this blog where we used the API to fetch the replies to a post to make a [Mastodon comment section](https://ellietheyeen.github.io/2023/11/14/github-pages-mastodon-comments.html) where we used the following URL.  
+and you might remember the past article on this blog where we used the API to fetch the replies to a post to make a [Mastodon comment section](https://everydaycompute.github.io/2023/11/14/github-pages-mastodon-comments.html) where we used the following URL.  
 <https://toot.cat/api/v1/statuses/111170465634822734/context>.
 
 We are going to look at the RSS URL which you can get by appending `.rss` after any Mastodon profile URL.  

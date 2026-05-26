@@ -22,5 +22,5 @@ See the code below how it was done and feel free to use it
 Apparently you can preview gists like this which is nice.  
 The syntax for it is {% raw %} `{% gist 931004c78808b3d52daf7723cb6453fd %}` {% endraw %}
 where you post the if of the gist such as
-931004c78808b3d52daf7723cb6453fd part from <https://gist.github.com/EllieTheYeen/931004c78808b3d52daf7723cb6453fd>
+931004c78808b3d52daf7723cb6453fd part from <https://gist.github.com/EveryDayCompute/931004c78808b3d52daf7723cb6453fd>
 

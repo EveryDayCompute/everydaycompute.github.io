@@ -13,7 +13,7 @@
 
     {%- if butt.url -%}
     {%- assign url = butt.url | append: '=' -%}
-    {%- assign url = url | append: 'https://ellietheyeen.github.io' | append: page.url | uri_escape -%}
+    {%- assign url = url | append: 'https://everydaycompute.github.io' | append: page.url | uri_escape -%}
     {%- assign elems = elems | push: url -%}
     {%- endif -%}
 
@@ -27,7 +27,7 @@
     {%- if butt.body -%}
     {%- assign body = butt.body | append: '=' -%}
     {%- assign body = body | append: '%0A' -%}
-    {%- assign body = body | append: 'https://ellietheyeen.github.io' | append: page.url | uri_escape -%}
+    {%- assign body = body | append: 'https://everydaycompute.github.io' | append: page.url | uri_escape -%}
     {%- assign body = body | append: '%0A' -%}
     {%- assign elems = elems | push: body -%}
     {%- endif -%}

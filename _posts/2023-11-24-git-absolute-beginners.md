@@ -25,7 +25,7 @@ Now you need to do some basic configuration in order for git to actually functio
 
 Here is an example of how you set the email and name globally in order to be able to commit and push.
 ```sh
-git config --global user.email 42704150+EllieTheYeen@users.noreply.github.com
+git config --global user.email 42704150+EveryDayCompute@users.noreply.github.com
 git config --global user.name Ellie The Yeen
 ```
 Note that the email is not a real email as I am using email privacy here which GitHub and GitLab for example has which can be used to avoid spam.
@@ -50,7 +50,7 @@ Before you can push to any remote you must add one. To add one you use the `git 
 
 Example of add command
 ```sh
-git remote add origin git@github.com:EllieTheYeen/ellietheyeen.github.io.git
+git remote add origin git@github.com:EveryDayCompute/everydaycompute.github.io.git
 ```
 
 If you clone a repository you do not need to set the remote as it will be already set.

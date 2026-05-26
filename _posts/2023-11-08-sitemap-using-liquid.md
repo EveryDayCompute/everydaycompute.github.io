@@ -93,19 +93,19 @@ This will then render into something approximately like this. Remember that the 
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://ellietheyeen.github.io/</loc>
+  <loc>https://everydaycompute.github.io/</loc>
   <lastmod>2023-11-08T06:53:00+01:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
-  <loc>https://ellietheyeen.github.io/2023/11/06/github-actions-post-on-mastodon.html</loc>
+  <loc>https://everydaycompute.github.io/2023/11/06/github-actions-post-on-mastodon.html</loc>
   <lastmod>2023-11-06T14:15:00+01:00</lastmod>
   <priority>0.66</priority>
 </url>
 
 <url>
-  <loc>https://ellietheyeen.github.io/about.html</loc>
+  <loc>https://everydaycompute.github.io/about.html</loc>
   <lastmod>2023-11-08T06:53:00+01:00</lastmod>
   <priority>0.10</priority>
 </url>
@@ -129,7 +129,7 @@ Sitemap: {{ site.url | append: site.baseurl }}/sitemap.xml
 ```yml
 User-agent: *
 Allow: /
-Sitemap: https://ellietheyeen.github.io/sitemap.xml
+Sitemap: https://everydaycompute.github.io/sitemap.xml
 ```
 and will be reusable for other websites.
 
@@ -152,7 +152,7 @@ You can also use it to generate a makeshift [JSON](https://www.json.org/json-en.
 {% endraw %}
 
 You should check out the page for [Jekyll variables](https://jekyllrb.com/docs/variables/) to understand this code better but here is a simple explanation for what they do.
-- `site.url` contains the main site url like `http://ellietheyeen.github.io` and it does not have a tailing slash
+- `site.url` contains the main site url like `http://everydaycompute.github.io` and it does not have a tailing slash
 - `site.baseurl` is often an empty string unless your blog is at some path that is not root then it is just an empty string but it might be something that has a leading slash but no trailing like `/blog` and it is set in `_config.yml` jekyll config
 - `site.posts` is all the posts on the site and is essentially an array of associative array that each has attributes like title and url
 - `site.time` is the time at the point of when the site is built

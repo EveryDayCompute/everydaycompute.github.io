@@ -8,7 +8,7 @@ tags:
 ---
 Have you ever seen links posted on social media where you get a preview of the content of the website that you link and wonder how that is made. It is done using certain HTML tags that a bot fetches when you link the webpage. This is of course subject to the `robots.txt` in the web root as most bots tend to follow that when fetching content. Below is an example of how that can look like.
 
-[![A Twitter post by username EllieTheYeen with this display name HyenRådjuret Elisabeth ΘΔ. 17h. Text on post: New blog post: Adding comments and upvotes to your blog using Disqus. The preview has a picture of a hyena deer that is blue and red sided and anthropomorphic. The preview text says: ellietheyeen.github.io Adding comments and upvotes to your blog using Disqus. So you have a website and you are using a static website generator like jekyll or you do not want to make your own](/images/twitterpostedlink.png)](/images/twitterpostedlink.png)
+[![A Twitter post by username EveryDayCompute with this display name HyenRådjuret Elisabeth ΘΔ. 17h. Text on post: New blog post: Adding comments and upvotes to your blog using Disqus. The preview has a picture of a hyena deer that is blue and red sided and anthropomorphic. The preview text says: everydaycompute.github.io Adding comments and upvotes to your blog using Disqus. So you have a website and you are using a static website generator like jekyll or you do not want to make your own](/images/twitterpostedlink.png)](/images/twitterpostedlink.png)
 
 Having posts presented like this drives more engagement to your website and lets visitors know a bit about what the content is about before visiting adn we want visitors from social media sites to see posts that look interesting and visit our websites.
 
@@ -21,8 +21,8 @@ Here we have the data inside the HTML head section that will be seen by various 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/assets/css/style.css?v=e94535de949ec05a5e7490fe9f47cd07337c3f72">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<meta property="og:image" content="https://github.com/EllieTheYeen.png">
-<meta name="twitter:image" content="https://github.com/EllieTheYeen.png">
+<meta property="og:image" content="https://github.com/EveryDayCompute.png">
+<meta name="twitter:image" content="https://github.com/EveryDayCompute.png">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Adding comments and upvotes to your blog using Disqus | YeenDeer softness blog</title>
@@ -31,15 +31,15 @@ Here we have the data inside the HTML head section that will be seen by various 
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="So you have a website and you are using a static website generator like jekyll or you do not want to make your own comment section due to the security issues it can cause. What you can do then is use a service like disqus in order to present a comment section inside an iframe. This is one among other solutions to provide a comment section for your blog. There are of course also other ways like Facebook has a thing where you can add a comment section using it. There are also some fancy unusual solutions like using a certain Mastodon post as a comment section which I read about when I searched for another post about how to make a Mastodon share button and both of these posts are extremely interesting and I recommend reading them." />
 <meta property="og:description" content="So you have a website and you are using a static website generator like jekyll or you do not want to make your own comment section due to the security issues it can cause. What you can do then is use a service like disqus in order to present a comment section inside an iframe. This is one among other solutions to provide a comment section for your blog. There are of course also other ways like Facebook has a thing where you can add a comment section using it. There are also some fancy unusual solutions like using a certain Mastodon post as a comment section which I read about when I searched for another post about how to make a Mastodon share button and both of these posts are extremely interesting and I recommend reading them." />
-<link rel="canonical" href="https://ellietheyeen.github.io/2023/11/03/comments-blog-disqus.html" />
-<meta property="og:url" content="https://ellietheyeen.github.io/2023/11/03/comments-blog-disqus.html" />
+<link rel="canonical" href="https://everydaycompute.github.io/2023/11/03/comments-blog-disqus.html" />
+<meta property="og:url" content="https://everydaycompute.github.io/2023/11/03/comments-blog-disqus.html" />
 <meta property="og:site_name" content="YeenDeer softness blog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-11-03T06:15:28+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Adding comments and upvotes to your blog using Disqus" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-11-03T06:15:28+01:00","datePublished":"2023-11-03T06:15:28+01:00","description":"So you have a website and you are using a static website generator like jekyll or you do not want to make your own comment section due to the security issues it can cause. What you can do then is use a service like disqus in order to present a comment section inside an iframe. This is one among other solutions to provide a comment section for your blog. There are of course also other ways like Facebook has a thing where you can add a comment section using it. There are also some fancy unusual solutions like using a certain Mastodon post as a comment section which I read about when I searched for another post about how to make a Mastodon share button and both of these posts are extremely interesting and I recommend reading them.","headline":"Adding comments and upvotes to your blog using Disqus","mainEntityOfPage":{"@type":"WebPage","@id":"https://ellietheyeen.github.io/2023/11/03/comments-blog-disqus.html"},"url":"https://ellietheyeen.github.io/2023/11/03/comments-blog-disqus.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-11-03T06:15:28+01:00","datePublished":"2023-11-03T06:15:28+01:00","description":"So you have a website and you are using a static website generator like jekyll or you do not want to make your own comment section due to the security issues it can cause. What you can do then is use a service like disqus in order to present a comment section inside an iframe. This is one among other solutions to provide a comment section for your blog. There are of course also other ways like Facebook has a thing where you can add a comment section using it. There are also some fancy unusual solutions like using a certain Mastodon post as a comment section which I read about when I searched for another post about how to make a Mastodon share button and both of these posts are extremely interesting and I recommend reading them.","headline":"Adding comments and upvotes to your blog using Disqus","mainEntityOfPage":{"@type":"WebPage","@id":"https://everydaycompute.github.io/2023/11/03/comments-blog-disqus.html"},"url":"https://everydaycompute.github.io/2023/11/03/comments-blog-disqus.html"}</script>
 <!-- End Jekyll SEO tag -->
 ```
 
@@ -72,8 +72,8 @@ The second line is the open graph tag for description which is used by the open 
 ## The picture
 If you look at the screenshot it has a picture in it. This can be set with meta tags but some websites will try to find a suitable picture from the website to use. Here are the tags used to display the picture
 ```html
-<meta property="og:image" content="https://github.com/EllieTheYeen.png">
-<meta name="twitter:image" content="https://github.com/EllieTheYeen.png">
+<meta property="og:image" content="https://github.com/EveryDayCompute.png">
+<meta name="twitter:image" content="https://github.com/EveryDayCompute.png">
 ```
 These were not part of the Jekyll SEO Tag plugin and had to be manually added in order to be there. You can set this either to a general picture for your website or a picture relevant to your article.
 

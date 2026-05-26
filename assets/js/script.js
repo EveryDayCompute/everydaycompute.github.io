@@ -26,7 +26,7 @@ function mastodon_share() {
 
 var load_disqus = function () {
     var d = document, s = d.createElement('script');
-    s.src = 'https://ellietheyeen.disqus.com/embed.js';
+    s.src = 'https://everydaycompute.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
 };
@@ -34,7 +34,7 @@ var load_disqus = function () {
 var load_mastodon = function () {
     var info = document.getElementById("mastsinfobox");
     info.textContent = "Loading comments"
-    fetch("https://gist.githubusercontent.com/EllieTheYeen/d83b14c225c8233e9c458f9d3889442b/raw/posts.csv")
+    fetch("https://gist.githubusercontent.com/EveryDayCompute/d83b14c225c8233e9c458f9d3889442b/raw/posts.csv")
         .then(async (d) => {
             var t = await d.text()
             var thisarticle = null;

@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
 It is quite simple really even if the code might look a bit messy.
 
-The data file that it imports looks like this and specifies if the part os allowed on beginning, middle and end. The file is over 600 lines long so posting the entire thing here would be silly but it is posted here if you want it <https://gist.github.com/EllieTheYeen/2b3698cf14f81822c85531089d9c5de0>.
+The data file that it imports looks like this and specifies if the part os allowed on beginning, middle and end. The file is over 600 lines long so posting the entire thing here would be silly but it is posted here if you want it <https://gist.github.com/EveryDayCompute/2b3698cf14f81822c85531089d9c5de0>.
 
 Part of `oocomponents.txt`
 ```

@@ -26,21 +26,21 @@ Below is an example output of jekyll-seo-tag which is from the this page of this
 <title>Throwing away jekyll-seo-tag | YeenDeer softness blog</title>
 <meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Throwing away jekyll-seo-tag" />
-<meta name="author" content="ellietheyeen" />
+<meta name="author" content="everydaycompute" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="So recently there was a problem on Bing webmasters where it complained that the site has too long description meta tags. The reason for this is that Jekyll takes the description from the site.excerpt variable which is something that can be very long and sometimes almost a thousand characters in some circumstances. There were 2 alternatives to solve this. One is to rewrite every single post to have a specific description that does not exceed the specifications or we can create our own meta tags and the latter is what we are going to do." />
 <meta property="og:description" content="So recently there was a problem on Bing webmasters where it complained that the site has too long description meta tags. The reason for this is that Jekyll takes the description from the site.excerpt variable which is something that can be very long and sometimes almost a thousand characters in some circumstances. There were 2 alternatives to solve this. One is to rewrite every single post to have a specific description that does not exceed the specifications or we can create our own meta tags and the latter is what we are going to do." />
-<link rel="canonical" href="https://ellietheyeen.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html" />
-<meta property="og:url" content="https://ellietheyeen.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html" />
+<link rel="canonical" href="https://everydaycompute.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html" />
+<meta property="og:url" content="https://everydaycompute.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html" />
 <meta property="og:site_name" content="YeenDeer softness blog" />
-<meta property="og:image" content="https://github.com/EllieTheYeen.png" />
+<meta property="og:image" content="https://github.com/EveryDayCompute.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-12-05T00:39:00+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:image" content="https://github.com/EllieTheYeen.png" />
+<meta property="twitter:image" content="https://github.com/EveryDayCompute.png" />
 <meta property="twitter:title" content="Throwing away jekyll-seo-tag" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"ellietheyeen"},"dateModified":"2023-12-05T00:39:00+01:00","datePublished":"2023-12-05T00:39:00+01:00","description":"So recently there was a problem on Bing webmasters where it complained that the site has too long description meta tags. The reason for this is that Jekyll takes the description from the site.excerpt variable which is something that can be very long and sometimes almost a thousand characters in some circumstances. There were 2 alternatives to solve this. One is to rewrite every single post to have a specific description that does not exceed the specifications or we can create our own meta tags and the latter is what we are going to do.","headline":"Throwing away jekyll-seo-tag","image":"https://github.com/EllieTheYeen.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://ellietheyeen.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html"},"url":"https://ellietheyeen.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"everydaycompute"},"dateModified":"2023-12-05T00:39:00+01:00","datePublished":"2023-12-05T00:39:00+01:00","description":"So recently there was a problem on Bing webmasters where it complained that the site has too long description meta tags. The reason for this is that Jekyll takes the description from the site.excerpt variable which is something that can be very long and sometimes almost a thousand characters in some circumstances. There were 2 alternatives to solve this. One is to rewrite every single post to have a specific description that does not exceed the specifications or we can create our own meta tags and the latter is what we are going to do.","headline":"Throwing away jekyll-seo-tag","image":"https://github.com/EveryDayCompute.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://everydaycompute.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html"},"url":"https://everydaycompute.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html"}</script>
 <!-- End Jekyll SEO tag -->
 ```
 ## Our solution
@@ -88,16 +88,16 @@ You might wonder how this looks rendered and here is the whole thing rendered wh
 ```html
 <title>Throwing away jekyll-seo-tag | YeenDeer softness blog</title>
 <!-- Standardized -->
-<meta name="author" content="ellietheyeen" />
+<meta name="author" content="everydaycompute" />
 <meta name="robots" content="index, follow" />
 <meta name="description" content="So recently there was a problem on Bing webmasters where it complained that the site has too long description meta tags. The reason for this is that Jekyll take" />
 <meta name="msapplication-navbutton-color" content="#ff1526" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <!-- OpenGraph -->
-<meta name="og:url" content="https://ellietheyeen.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html" />
+<meta name="og:url" content="https://everydaycompute.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html" />
 <meta name="og:type" content="article" />
 <meta name="og:title" content="Throwing away jekyll-seo-tag" />
-<meta name="og:image" content="https://github.com/EllieTheYeen.png" />
+<meta name="og:image" content="https://github.com/EveryDayCompute.png" />
 <meta name="og:locale" content="en_US" />
 <meta name="og:site_name" content="YeenDeer softness blog" />
 <meta name="og:description" content="So recently there was a problem on Bing webmasters where it complained that the site has too long description meta tags. The reason for this is that Jekyll take" />
@@ -108,8 +108,8 @@ You might wonder how this looks rendered and here is the whole thing rendered wh
 <meta name="twitter:card" content="summary" />
 <!-- Link -->
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="canonical" href="https://ellietheyeen.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html" />
-<link type="application/atom+xml" rel="alternate" href="https://ellietheyeen.github.io/feed.xml" title="YeenDeer softness blog" />
+<link rel="canonical" href="https://everydaycompute.github.io/2023/12/05/throwing-away-jekyll-seo-tag.html" />
+<link type="application/atom+xml" rel="alternate" href="https://everydaycompute.github.io/feed.xml" title="YeenDeer softness blog" />
 ```
 
 We hope you found this interesting as it was a fun article to write and feel free to ask any questions in the comments

@@ -13,7 +13,7 @@ GitHub has 3 special repositories each user or organization can have which does 
 
 ## username (Your profile)
 This should have the same name as your username and if a `README.md` exists in this it will appear on the top of your profile.
-An example of this in action is [my own profile](https://github.com/EllieTheYeen) where you will see a small bio.
+An example of this in action is [my own profile](https://github.com/EveryDayCompute) where you will see a small bio.
 
 You can have an extremely fancy profile using this with pictures and buttons and links and all kinds of fun things you can think of.
 

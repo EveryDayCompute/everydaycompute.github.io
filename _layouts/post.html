@@ -8,7 +8,7 @@ layout: base
 
 {% include relatedposts.html %}
 <p class="view">By {{ page.author | default: site.author }} {{ page.date | date: "%-d %B %Y" }}
-    <a href="{{ 'https://ellietheyeen.github.io' | append: page.url | uri_escape }}" title="Permalink"
+    <a href="{{ 'https://everydaycompute.github.io' | append: page.url | uri_escape }}" title="Permalink"
         style="color: #00dd00">Permalink</a>
     {% assign tags = page.tags -%}
     {%- if tags -%}

@@ -10,7 +10,7 @@ tags:
 So you might wonder if GitHub Actions can be used to make posts on Mastodon for simple bots such as to do stuff like maybe you want a [Mastodon comment section](https://www.kylereddoch.me/2023/02/13/adding-mastodon-comments-jekyll-blog.html) or something like that and do not want to manually have to add the ids or store them externally.
 
 I decided to actually try that out by making a test project where it actually is what is done.  
-https://github.com/ellietheyeen/MastodonActionTest
+https://github.com/everydaycompute/MastodonActionTest
 
 It is recommended to read the [documentation](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions) for GitHub actions in order to understand how things vaguely work if you want to try this yourself but I will explain a bit how it works.
 
@@ -27,12 +27,12 @@ It is possible to sort of do this in a single file but it can be very confusing 
 name: Mastodon Action Test
 description: 'A github action that tests if it can post to Mastodon and save the id'
 
-author: Ellie The Yeen <42704150+EllieTheYeen@users.noreply.github.com>
+author: Ellie The Yeen <42704150+EveryDayCompute@users.noreply.github.com>
 
 runs:
   using: composite
   steps:
-    - run: wget https://raw.githubusercontent.com/EllieTheYeen/MastodonActionTest/main/action.py
+    - run: wget https://raw.githubusercontent.com/EveryDayCompute/MastodonActionTest/main/action.py
       shell: bash
     - run: python3 action.py -name '${{ inputs.name }}' -email '${{ inputs.email }}' -branch '${{ inputs.branch }}' -instance '${{ inputs.instance }}' -blogbase '${{ inputs.blogbase }}'
       shell: bash
@@ -45,7 +45,7 @@ inputs:
   email:
     description: Mail address
     required: false
-    default: 42704150+EllieTheYeen@users.noreply.github.com
+    default: 42704150+EveryDayCompute@users.noreply.github.com
   branch:
     description: Git branch target
     required: false
@@ -55,9 +55,9 @@ inputs:
     required: true
     default: https://botsin.space
   blogbase:
-    description: Jekyll instance in the form like https://ellietheyeen.github.io/Test
+    description: Jekyll instance in the form like https://everydaycompute.github.io/Test
     required: true
-    default: https://ellietheyeen.github.io/Test
+    default: https://everydaycompute.github.io/Test
 ```
 Here various config is defined like how the Python script should run and what parameters should be used.
 
@@ -80,15 +80,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: mastodonactiontest
-        uses: EllieTheYeen/MastodonActionTest@v1
+        uses: EveryDayCompute/MastodonActionTest@v1
         env:
           MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
         with:
           name: Mastodon Action Test
-          email: 42704150+EllieTheYeen@users.noreply.github.com
+          email: 42704150+EveryDayCompute@users.noreply.github.com
           branch: main
           instance: https://botsin.space
-          blogbase: https://ellietheyeen.github.io/Test
+          blogbase: https://everydaycompute.github.io/Test
 ```
 
 Here in `action.py` is what code is actually is being run and doing the Mastodon posting. It uses the GitHub actions checkout and then checks for new posts files and if there are new ones it posts them on Mastodon assuming all the config is right and nothing goes wrong like the token being missing.

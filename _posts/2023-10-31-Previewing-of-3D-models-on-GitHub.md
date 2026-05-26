@@ -28,9 +28,9 @@ If you just have an ascii STL file you can just drag and drop it onto the gist w
 ### Example of the binary STL workaround using Gist cloning
 Did you know you can clone a gist?
 Let's say we have the following link after uploading the Gist using the rubygem gist tool or the GitHub CLI tool or just on the web  
-<https://gist.github.com/EllieTheYeen/fe1db023f985d2da7dae820e3e8fe8b0>  
+<https://gist.github.com/EveryDayCompute/fe1db023f985d2da7dae820e3e8fe8b0>  
 Now what we want to do is to clone it using a command such as
-`git clone https://gist.github.com/EllieTheYeen/fe1db023f985d2da7dae820e3e8fe8b0`  
+`git clone https://gist.github.com/EveryDayCompute/fe1db023f985d2da7dae820e3e8fe8b0`  
 or if you want to use SSH then run this instead  
 `git clone git@gist.github.com:fe1db023f985d2da7dae820e3e8fe8b0.git`  
 now enter the directory and run something like

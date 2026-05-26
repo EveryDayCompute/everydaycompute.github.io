@@ -136,34 +136,34 @@ bing.xml  yandex.html  robots.txt  listposts.json  indexnow.txt  google.html  si
 Several command line themes being switched between
 [oh-my-zsh] Random theme 'trapd00r' loaded
 git❨ main ❩
-pi@clear:pts/0-> /home > pi > ellietheyeen.github.io (0)
+pi@clear:pts/0-> /home > pi > everydaycompute.github.io (0)
 \> ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'juanghurtado' loaded
-pi@clear:~/ellietheyeen.github.io
+pi@clear:~/everydaycompute.github.io
 \> ZSH_THEME='random' exec zsh                                                                                                                                 main [c6ac98c]
 [oh-my-zsh] Random theme 'superjarin' loaded
-[] ~/ellietheyeen.github.io <main> ZSH_THEME='random' exec zsh
+[] ~/everydaycompute.github.io <main> ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'xiong-chiamiov' loaded
-┌─[pi@clear] - [~/ellietheyeen.github.io] - [Thu Dec 07, 07:33]
+┌─[pi@clear] - [~/everydaycompute.github.io] - [Thu Dec 07, 07:33]
 └─[$]> ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'candy-kingdom' loaded
-pi@clear:~/ellietheyeen.github.io (branch: main)
+pi@clear:~/everydaycompute.github.io (branch: main)
 \$ ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'xiong-chiamiov-plus' loaded
-┌─[pi@clear] - [~/ellietheyeen.github.io] - [Thu Dec 07, 07:33]
+┌─[pi@clear] - [~/everydaycompute.github.io] - [Thu Dec 07, 07:33]
 └─[$] <git:(main)> ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'frontcube' loaded
-~/ellietheyeen.github.io
+~/everydaycompute.github.io
 ➞  ZSH_THEME='random' exec zsh                                                                                                                                 [git:main] ✔
 [oh-my-zsh] Random theme 'linuxonly' loaded
 git:(main)
-pi@clear:pts/0->/home/pi/ellietheyeen.github.io (0) git:(main)
+pi@clear:pts/0->/home/pi/everydaycompute.github.io (0) git:(main)
 \> ZSH_THEME='random' exec zsh
 /home/pi/.oh-my-zsh/themes/humza.zsh-theme:13: command not found: bc
 [oh-my-zsh] Random theme 'humza' loaded
-pi {~/ellietheyeen.github.io}±(main); greetings, earthling [kb]$ ☞ ZSH_THEME='random' exec zsh
+pi {~/everydaycompute.github.io}±(main); greetings, earthling [kb]$ ☞ ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'dallas' loaded
-{23-12-07 7:34}clear:~/ellietheyeen.github.io@main pi% ZSH_THEME='random' exec zsh
+{23-12-07 7:34}clear:~/everydaycompute.github.io@main pi% ZSH_THEME='random' exec zsh
 ](/images/oh-my-zsh.png)](images/oh-my-zsh.png)
 
 [![
@@ -244,7 +244,7 @@ Nautilus which is an even more simplistic file manager with white background and
 
 ![
 A Thunderbird window showing one article that says "this is a test article where this is the first paragraph. a newline then A second paragraph.".
-The article is named test and has the subject Test and is by ellietheyeen at midnight and has a website URL that is /test/2023/11/28/test.html
+The article is named test and has the subject Test and is by everydaycompute at midnight and has a website URL that is /test/2023/11/28/test.html
 ](/images/thunderbirdrss.png)
 
 [![
@@ -310,11 +310,11 @@ oEmbed title
 oEmbed provider_name
 ](/images/mastodonpreview.png)](/images/mastodonpreview.png)
 
-[![2 Discord messages that says they are from GitHub using the GitHub logo and each of them says that there is a new commit and first one is test branch main from EllieTheYeen Test commit for update and second one is from github-actions commiting the same on the posts branch](/images/discordhookexample.png "Two commits shown on Discord from a bot")](/images/discordhookexample.png)
+[![2 Discord messages that says they are from GitHub using the GitHub logo and each of them says that there is a new commit and first one is test branch main from EveryDayCompute Test commit for update and second one is from github-actions commiting the same on the posts branch](/images/discordhookexample.png "Two commits shown on Discord from a bot")](/images/discordhookexample.png)
 
-[![A Twitter post by username EllieTheYeen with this display name HyenRådjuret Elisabeth ΘΔ. 17h. Text on post: New blog post: Adding comments and upvotes to your blog using Disqus. The preview has a picture of a hyena deer that is blue and red sided and anthropomorphic. The preview text says: ellietheyeen.github.io Adding comments and upvotes to your blog using Disqus. So you have a website and you are using a static website generator like jekyll or you do not want to make your own](/images/twitterpostedlink.png)](/images/twitterpostedlink.png)
+[![A Twitter post by username EveryDayCompute with this display name HyenRådjuret Elisabeth ΘΔ. 17h. Text on post: New blog post: Adding comments and upvotes to your blog using Disqus. The preview has a picture of a hyena deer that is blue and red sided and anthropomorphic. The preview text says: everydaycompute.github.io Adding comments and upvotes to your blog using Disqus. So you have a website and you are using a static website generator like jekyll or you do not want to make your own](/images/twitterpostedlink.png)](/images/twitterpostedlink.png)
 
-[![2 Discord messages that says they are from GitHub using the GitHub logo and each of them says that there is a new commit and first one is test branch main from EllieTheYeen Test commit for update and second one is from github-actions commiting the same on the posts branch](/images/discordhookexample.png "Two commits shown on Discord from a bot")](/images/discordhookexample.png)
+[![2 Discord messages that says they are from GitHub using the GitHub logo and each of them says that there is a new commit and first one is test branch main from EveryDayCompute Test commit for update and second one is from github-actions commiting the same on the posts branch](/images/discordhookexample.png "Two commits shown on Discord from a bot")](/images/discordhookexample.png)
 
 [![
 A Discord message from a bot named systemd at 10:01 with the systemd logo that is green square and triangle inside black square brackets. There is a red embed with the title: Service justfail.service failed and description: × justfail.service - This will just fail 

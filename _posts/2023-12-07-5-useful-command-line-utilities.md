@@ -125,34 +125,34 @@ Exa is a replacement for the ls file listing command with more features such as 
 Several command line themes being switched between
 [oh-my-zsh] Random theme 'trapd00r' loaded
 git❨ main ❩
-pi@clear:pts/0-> /home > pi > ellietheyeen.github.io (0)
+pi@clear:pts/0-> /home > pi > everydaycompute.github.io (0)
 \> ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'juanghurtado' loaded
-pi@clear:~/ellietheyeen.github.io
+pi@clear:~/everydaycompute.github.io
 \> ZSH_THEME='random' exec zsh                                                                                                                                 main [c6ac98c]
 [oh-my-zsh] Random theme 'superjarin' loaded
-[] ~/ellietheyeen.github.io <main> ZSH_THEME='random' exec zsh
+[] ~/everydaycompute.github.io <main> ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'xiong-chiamiov' loaded
-┌─[pi@clear] - [~/ellietheyeen.github.io] - [Thu Dec 07, 07:33]
+┌─[pi@clear] - [~/everydaycompute.github.io] - [Thu Dec 07, 07:33]
 └─[$]> ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'candy-kingdom' loaded
-pi@clear:~/ellietheyeen.github.io (branch: main)
+pi@clear:~/everydaycompute.github.io (branch: main)
 \$ ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'xiong-chiamiov-plus' loaded
-┌─[pi@clear] - [~/ellietheyeen.github.io] - [Thu Dec 07, 07:33]
+┌─[pi@clear] - [~/everydaycompute.github.io] - [Thu Dec 07, 07:33]
 └─[$] <git:(main)> ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'frontcube' loaded
-~/ellietheyeen.github.io
+~/everydaycompute.github.io
 ➞  ZSH_THEME='random' exec zsh                                                                                                                                 [git:main] ✔
 [oh-my-zsh] Random theme 'linuxonly' loaded
 git:(main)
-pi@clear:pts/0->/home/pi/ellietheyeen.github.io (0) git:(main)
+pi@clear:pts/0->/home/pi/everydaycompute.github.io (0) git:(main)
 \> ZSH_THEME='random' exec zsh
 /home/pi/.oh-my-zsh/themes/humza.zsh-theme:13: command not found: bc
 [oh-my-zsh] Random theme 'humza' loaded
-pi {~/ellietheyeen.github.io}±(main); greetings, earthling [kb]$ ☞ ZSH_THEME='random' exec zsh
+pi {~/everydaycompute.github.io}±(main); greetings, earthling [kb]$ ☞ ZSH_THEME='random' exec zsh
 [oh-my-zsh] Random theme 'dallas' loaded
-{23-12-07 7:34}clear:~/ellietheyeen.github.io@main pi% ZSH_THEME='random' exec zsh
+{23-12-07 7:34}clear:~/everydaycompute.github.io@main pi% ZSH_THEME='random' exec zsh
 ](/images/oh-my-zsh.png)](images/oh-my-zsh.png)
 
 <https://github.com/ohmyzsh/ohmyzsh>

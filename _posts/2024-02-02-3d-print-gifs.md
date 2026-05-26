@@ -13,7 +13,7 @@ tags:
 
 OctoPrint has a feature to automatically make videos using a webcam and mjpg streamer or any other camera that can take snapshots by getting some data from an URL. This can be convenient but sometimes you want things that are sized differently or maybe a GIF instead of a video. 
 
-This is good for many reasons such as usage on social media as GIFs tend to be short and videos tend to be long and if there is no audio anyway then a GIF is perfect. You should read [this article](https://ellietheyeen.github.io/2024/02/01/3d-printer-done-snapshot.html) as it describes certain things you will need to set this up properly.
+This is good for many reasons such as usage on social media as GIFs tend to be short and videos tend to be long and if there is no audio anyway then a GIF is perfect. You should read [this article](https://everydaycompute.github.io/2024/02/01/3d-printer-done-snapshot.html) as it describes certain things you will need to set this up properly.
 
 We start with the actual GIF making program that uses FFMPEG to make the GIF itself, limits it to max 50 frames and also shifts the last frame to be the first so a preview of the GIF shows the object done instead of an empty print bed as it would otherwise.
 
@@ -86,7 +86,7 @@ else:
             makegif(os.path.join(savedpath, job))
 ```
 
-In the [previous article](https://ellietheyeen.github.io/2024/02/01/3d-printer-done-snapshot.html) there was 2 smaller things shown which was
+In the [previous article](https://everydaycompute.github.io/2024/02/01/3d-printer-done-snapshot.html) there was 2 smaller things shown which was
 
 Part of `config.yml`
 ```yml
