@@ -2,7 +2,7 @@ theme: jekyll-theme-hacker
 title: Every Day Your Computer Does A Computation
 author: EveryDayCompute
 description: >-
-  Ellie the Yeen is a soft YeenDeer that mweeoops and does programming
+  Programming and electronics
 
 include: [".well-known"]
 timezone: Europe/Stockholm
