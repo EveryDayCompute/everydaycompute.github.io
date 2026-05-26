@@ -4,4 +4,4 @@ This is the repository for my blog mostly about programming
 
 Used to be
 
-https://everydaycompute.github.io/
+https://ellietheyeen.github.io/
